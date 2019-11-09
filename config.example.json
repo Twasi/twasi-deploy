@@ -1,0 +1,34 @@
+{
+  "github": {
+    "credentials": {
+      "username": "",
+      "token": ""
+    },
+    "webhook": {
+      "port": 8989,
+      "secret": ""
+    }
+  },
+  "deployment-server": {
+    "basePath": "/home/twasi/twasi/",
+    "host": "",
+    "username": "twasi",
+    "password": "",
+    "connection": {
+      "protocol": "ftps",
+      "port": 22
+    }
+  },
+  "deployments": [
+    {
+      "branch": "master",
+      "location": "beta/",
+      "screen": "twasi-beta"
+    },
+    {
+      "branch": "dev",
+      "location": "dev/",
+      "screen": "twasi-dev"
+    }
+  ]
+}
