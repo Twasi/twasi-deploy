@@ -13,6 +13,6 @@
     "github-webhook-handler": "^1.0.0",
     "maven": "^4.7.0",
     "node-ssh": "^6.0.0",
-    "simple-git": "^1.126.0"
+    "simple-git": "^3.16.0"
   }
 }
